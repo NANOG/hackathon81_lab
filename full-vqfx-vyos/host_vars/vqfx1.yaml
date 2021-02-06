@@ -2,7 +2,7 @@ host_name: vqfx1
 interfaces:
     - name: lo0
       type: loopback
-      ip: 192.160.0.0/32
+      ip: 192.168.0.0/32
       ip6: 2001:db8:1:0::/128
       host_network: false
     - name: xe-0/0/0
