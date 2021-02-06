@@ -2,8 +2,8 @@ host_name: vyos2
 interfaces:
     - name: lo
       type: loopback
-      ip: 192.160.0.3/32
-      ip6: 2001:db8:1:0::3/128
+      ip: 192.168.0.2/32
+      ip6: 2001:db8:1:0::2/128
       host_network: false
     - name: eth3
       type: ethernet
